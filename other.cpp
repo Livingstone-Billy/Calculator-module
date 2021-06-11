@@ -79,7 +79,6 @@ double Other::getMean() const
     {
         total += mylist[row];
     }
-    double average;
-    average = total / n;
+    double average = total / n;
     return average;
 }
